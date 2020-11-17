@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Grupo 4 - Pequenos Gafanhotos">
+    <title>Contato - RSW Music School</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column h-100 contato">
+
+    <a class="sr-only sr-only-focusable" href="#content">Pular para o conteúdo principal</a>
+
+    <header id="top">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">RSW Music School</a>
+
+                <!-- Botao Contraste Mobile -->
+                <a class="d-block d-sm-none altocontraste" href="#"><i class="fas fa-adjust"></i></a>
+                <!-- //Botao Contraste Mobile -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="contato.html">Contato <span class="sr-only">(current)</span></a></li>
+                    </ul>
+
+                    <!-- Botao Contraste -->
+                    <a class="d-none d-sm-block altocontraste" href="#"><i class="fas fa-adjust"></i></a>
+                    <!-- //Botao Contraste -->
+
+                    <!-- Botao Login -->
+                    <div class="dropdown my-4 my-md-0">
+                        <button type="button" class="btn btn-sm btn-outline-light ml-md-4 btn-login" id="menu-login" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Entrar</button>
+
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="menu-login">
+                            <form class="px-4 py-3">
+                                <div class="form-group">
+                                    <label for="login-usuario">Usuário</label>
+                                    <input type="email" class="form-control" id="login-usuario" require>
+                                </div>
+                                <div class="form-group">
+                                    <label for="login-senha">Senha</label>
+                                    <input type="password" class="form-control" id="login-senha" require>
+                                </div>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="dropdownCheck" checked>
+                                        <label class="form-check-label" for="dropdownCheck">Ficar conectado</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Entrar</button>
+                            </form>
+    
+                            <div class="dropdown-divider"></div>
+    
+                            <a class="dropdown-item" href="#">Esqueceu sua senha?</a>
+                        </div>
+                    </div>
+                    <!-- //Botao Login -->
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="flex-shrink-0" id="content">
+        <div class="inner-banner">
+            <div class="container">
+                <h2>Contato</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mb-5 mb-md-0">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" pattern="[a-zA-Z]+" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="usuario@dominio.com.br" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" pattern=".{10,}[0-9]+" aria-describedby="telefoneHelp">
+                                <small id="telefoneHelp" class="form-text text-muted">Somente números. DDD + Telefone</small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="curso">Curso</label>
+                                <select class="form-control" id="curso" required>
+                                    <option></option>
+                                    <option>Flauta</option>
+                                    <option>Sax</option>
+                                    <option>DJ</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="assunto">Assunto</label>
+                                <input type="text" class="form-control" id="assunto" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea class="form-control" id="Mensagem" rows="3" required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-dark">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4 text-uppercase">Nosso endereço</h5>
+                    <ul class="nav flex-column mb-5 lista-contato">
+                        <li class="nav-item"><i class="fas fa-map-marker-check"></i> Rua do Imperador, 288 - Centro - Petrópolis</li>
+                        <li class="nav-item"><i class="fas fa-mailbox"></i> CEP: 25000-000</li>
+                        <li class="nav-item"><i class="fas fa-phone-alt"></i> 24 2222-3344</li>
+                        <li class="nav-item"><i class="fab fa-whatsapp"></i> 24 99999-9999</li>
+                    </ul>
+
+                    <h5 class="mb-4 text-uppercase">Redes sociais</h5>
+                    <ul class="nav nav-fill redes-sociais">
+                        <li class="nav-item">
+                          <a class="nav-link" href="http://www.pudim.com.br" target="_blank" title="Siga no Instagram"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="http://www.pudim.com.br" target="_blank" title="Curta no Facebook"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="http://www.pudim.com.br" target="_blank" title="Siga no Twitter"><i class="fab fa-twitter-square"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="http://www.pudim.com.br" target="_blank" title="Assine nosso feed"><i class="fas fa-rss-square"></i></a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Maps -->
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <!-- <img src="http://maps.googleapis.com/maps/api/staticmap?center=LAT, LONG&zoom=11&size=250x250"> -->
+                <!-- <img src="images/map.png" class="img-fluid" alt="Google Maps"> -->
+                <div id="map"></div>
+            </div>
+        </div>
+        <!-- //Google Maps -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto pt-3 text-white">
+        <div class="container">
+            <p class="float-right back-to-top"><a class="text-white" href="#top"><i class="fas fa-arrow-circle-up"></i> <span class="sr-only">Voltar ao topo</span></a></p>
+            <p>&copy; 2020 RSW Music School</p>
+        </div>
+    </footer>
+    <!-- //Footer -->
+
+    <!-- VLibras-->
+    <div vw class="enabled btn-libras">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- VLibras-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAceGgWc3wrytZARBxaeHMRVbcYoF1_tNw&callback=initMap"></script>
+
+</body>
+</html>

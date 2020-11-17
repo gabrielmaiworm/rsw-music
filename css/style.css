@@ -1,0 +1,361 @@
+body {
+    color: #333;
+    background-color: #EBECEA;
+}
+
+main > .container { padding: 0 15px 0; }
+
+hr { margin: 5rem 0; }
+
+
+
+/* BARRA DE NAVEGAÇÃO 
+------------------------------------------------------- */
+
+.bg-dark { background-color: #2d2e2a !important; }
+ 
+.navbar-dark .navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    transition: .3s linear;
+}
+
+.navbar a.altocontraste i { color: white; }
+
+.navbar-dark .btn-login::before {
+    padding-right: 5px;
+    content: '\f2f6';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+}
+
+
+
+/* CARROSSEL
+------------------------------------------------------- */
+.carousel { margin-bottom: 4rem; }
+
+.carousel .container { text-shadow: 0px 0px 5px #000000; }
+
+.carousel-caption {
+    bottom: 8rem;
+    z-index: 10;
+}
+
+.carousel-item { height: 32rem; }
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    filter: blur(3px);
+}
+
+
+
+/* BANNER INTERNO
+-------------------------------------------------- */
+
+.inner-banner {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 15rem;
+    margin: 3.7rem 0 4rem 0;
+    color: white;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    overflow: hidden;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+.inner-banner h2 {
+    font-size: 3rem;
+    line-height: 15rem;
+}
+
+
+
+/* REDES SOCIAIS
+-------------------------------------------------- */
+
+.redes-sociais { font-size: 2rem; }
+
+.redes-sociais .nav-link { color: inherit; }
+
+
+/* HOME
+-------------------------------------------------- */
+
+.featurette img { border-radius: 50px 20px; }
+
+.imagem-bola img { 
+    width: 150px;
+    height: 150px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 { font-weight: 400; }
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider { margin: 5rem 0; }
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+
+/* SOBRE
+-------------------------------------------------- */
+
+.sobre .inner-banner { background-image: url("../img/banners/interno01.jpg") !important; }
+
+.sobre .img-destaque { width: 100%; }
+
+
+
+/* CURSOS
+-------------------------------------------------- */
+
+.cursos .inner-banner { background-image: url("../img/banners/interno03.jpg") !important; }
+
+.cursos .curso-profile { background-color: #ddd; }
+
+.cursos .curso-profile > div { width: 100%; }
+
+.cursos .curso-profile img {
+    width: 150px;
+    height: 150px;
+}
+
+.cursos .curso-profile h6 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cursos .curso-profile p {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* CONTATO
+-------------------------------------------------- */
+
+.contato .inner-banner { background-image: url("../img/banners/interno02.jpg") !important; }
+
+#map {
+    width: 100vw;
+    height: 300px;
+}
+
+
+
+/* CONTRASTE
+-------------------------------------------------- */
+
+.contraste,
+.contraste nav,
+.contraste div,
+.contraste li,
+.contraste ol,
+.contraste header,
+.contraste footer,
+.contraste section,
+.contraste main,
+.contraste aside,
+.contraste article {
+    color: white !important;
+    background: black !important;
+}
+
+.contraste h1,
+.contraste h2,
+.contraste h3,
+.contraste h4,
+.contraste h5,
+.contraste h6,
+.contraste p,
+.contraste label,
+.contraste strong,
+.contraste em,
+.contraste cite,
+.contraste q,
+.contraste i,
+.contraste b,
+.contraste u,
+.contraste span {
+    color: white !important;
+}
+
+.contraste a { color: #F2AF29 !important; }
+
+.contraste .btn,
+.contraste button,
+.contraste input[type=button],
+.contraste input[type=reset],
+.contraste input[type=submit] {
+    background: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.contraste img.on-contrast-force-gray { filter: grayscale(100%) contrast(120%); }
+
+.contraste img.on-contrast-force-white { filter: brightness(0) invert(1); }
+
+.contraste input[type=text],
+.contraste input[type=password],
+.contraste input[type=url],
+.contraste input[type=search],
+.contraste input[type=email],
+.contraste input[type=tel],
+.contraste input[type=date],
+.contraste input[type=month],
+.contraste input[type=week],
+.contraste input[type=datetime],
+.contraste input[type=datetime-local],
+.contraste textarea,
+.contraste select,
+.contraste input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.contraste hr { background-color: white !important; }
+
+.contraste header .navbar { border-bottom: 1px solid #fff; }
+
+.contraste .altocontraste i,
+.contraste .btn-login {
+    color: #F2AF29 !important;
+    border-color: #F2AF29 !important;
+}
+
+.contraste .carousel-caption,
+.contraste .carousel-indicators,
+.contraste #map div {
+    background: transparent !important;
+}
+
+.contraste .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+.contraste .inner-banner {
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border-bottom: 1px solid #fff !important;
+ }
+.contraste .inner-banner .container { background: transparent !important; }
+
+.contraste img { border: 2px solid #fff; } 
+
+.contraste [vw] [vw-plugin-wrapper] { border: 1px solid white !important; }
+
+.contraste [vp] .vpw-controls-slider .vpw-slider .noUi-background { background-color: white !important; }
+
+.contraste #map div[role=button] {
+    color: initial !important;
+    background: white !important;
+}
+
+.cursos .curso-profile { border: 1px solid #fff; }
+
+.contraste .footer { border-top: 1px solid #fff; }
+
+.contraste .dropdown-menu.show {
+    border: 1px solid #fff;
+}
+
+.contraste .btn-libras { background: transparent !important;}
+
+
+
+/* FOOTER
+-------------------------------------------------- */
+
+.footer { background-color: #2d2e2a; }
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 575.98px) {
+    .navbar a.altocontraste i { font-size: 1.5rem; }
+    .inner-banner {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (min-width: 40em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+    .navbar-dark .navbar-nav .nav-link { margin-right: 10px; }
+    .navbar-dark .navbar-nav .active > .nav-link,
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link.show,
+    .navbar-dark .navbar-nav .show > .nav-link {
+        color: #fff;
+        border-bottom: 3px solid #F2AF29;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,.75);
+        border-bottom: 3px solid #F2AF29;
+    }
+}
+
+
+
+
+
+
+

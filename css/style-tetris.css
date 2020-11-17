@@ -1,0 +1,132 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    background-color: #2d2e2a;
+    margin-top: 40px;
+}
+
+audio  {
+    width: 300px;
+    height: 54px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* TETRIS
+------------------------------------------------------- */
+
+#canvas {
+    padding-top:150px;
+	background-color:yellow;
+	color: white;
+	width:512px;
+	height:480px;
+	position: absolute;
+	margin: auto;
+	padding: 0;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+body {
+	background-color: #111;
+}
+
+/* BARRA DE NAVEGAÇÃO 
+------------------------------------------------------- */
+
+.bg-dark {
+    background-color: #2d2e2a !important;
+}
+
+.nav-link {
+    color: #4f4f4d !important; 
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93);
+}
+
+.nav-link:hover {
+    color: #767871 !important; 
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-brand:hover,.navbar-dark .navbar-brand:visited, .navbar-dark .navbar-brand:active {
+    color:#696965;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5), 2px 2px 6px rgba(102,15,29,0.93);
+}
+
+.navbar-dark .navbar-brand {
+    font-family: 'Nunito', sans-serif;
+    transition: .3s linear;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #878780;
+}
+
+.navbar a i { color: white;}
+
+
+.navbar-nav li {
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 3px solid gold;
+}
+
+/* CONTRASTE
+-------------------------------------------------- */
+
+.contraste,
+.contraste nav,
+.contraste div,
+.contraste li,
+.contraste ol,
+.contraste header,
+.contraste footer,
+.contraste section,
+.contraste main,
+.contraste aside,
+.contraste article {
+    color: white !important;
+    background: black !important;
+}
+
+.contraste h1,
+.contraste h2,
+.contraste h3,
+.contraste h4,
+.contraste h5,
+.contraste h6,
+.contraste p,
+.contraste label,
+.contraste strong,
+.contraste em,
+.contraste cite,
+.contraste q,
+.contraste i,
+.contraste b,
+.contraste u,
+.contraste span {
+    color: white !important;
+}
+
+.contraste a{
+    color: yellow !important;
+}
+
+.contraste button,
+.contraste input[type=button],
+.contraste input[type=reset],
+.contraste input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contraste img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contraste img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
