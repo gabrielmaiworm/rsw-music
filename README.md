@@ -7,7 +7,7 @@
  
  # O grupo
  
- O projeto foi desenvolvido por 5 alunos da residência
+ O projeto foi desenvolvido por 4 alunos da residência
  
  [Alan Patrick](https://github.com/Alan-Patrik) -
  [Guilherme Sabino](https://github.com/GuilhermeSabinoRocha) -
